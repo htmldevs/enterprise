@@ -1,0 +1,323 @@
+/*========== XL-DESKTOP : BETWEEN 1200px TO 1500PX. ==========*/
+@media (min-width: 1200px) and (max-width: 1500px) {
+    /* GLOBAL */
+    .container {
+       max-width: 1120px;
+    }
+    h1 {
+       font-size: 52px;
+    }
+    h2 {
+       font-size: 43px;
+    }
+    h3 {
+       font-size: 36px;
+    }
+    h4 {
+       font-size: 25px;
+    }
+    h5 {
+       font-size: 20px;
+    }
+    h6 {
+       font-size: 16px;
+    }
+    body {
+       font-size: 15px;
+    }
+    .brand-slider img {
+      max-width: 200px;
+   }
+   .testimonial-wrapper {
+      padding-left: 100px;
+   }
+   .testimonial-sliders .slick-list {
+      padding-right: 350px !important;
+   }
+   .widget-des img {
+      max-width: 300px;
+   }
+   .mainmneu ul li a {
+      font-size: 16px;
+   }
+   .promotion-area .section-content {
+      padding-bottom: 80px;
+   }
+}
+
+/*========== LG + MD : BETWEEN 768PX TO 1199PX. ==========*/
+@media (min-width: 768px) and (max-width: 1199px) {
+    /* GLOBAL */
+    h1 {
+       font-size: 40px;
+    }
+    h2 {
+       font-size: 38px;
+    }
+    h3 {
+       font-size: 28px;
+    }
+    h4 {
+       font-size: 20px;
+    }
+    h5 {
+       font-size: 20px;
+    }
+    h6 {
+       font-size: 14px;
+    }
+    body {
+       font-size: 14px;
+    }
+    input, textarea {
+      font-size: 14px;
+   }
+   .pr-md-lg-0 {
+      padding-right: 0;
+   }
+   .site-btn {
+      font-size: 16px;
+   }
+   .widget-des img {
+      max-width: 250px;
+   }
+   .section-title p {
+      font-size: 16px;
+   }
+   /* GLOBAL// */
+
+   /* PROMOTION */
+   .promotion-wrapper {
+      border-radius: 20px;
+      padding: 30px 30px 0 30px;
+   }
+   .promotion-wrapper .section-content {
+      padding-bottom: 40px;
+   }
+   .promotion-video .promotion-img {
+      margin-right: 0;
+   }
+   .promotion-video::after {
+      height: 15%;
+   }
+   /* TESTIMONIAL */
+   .testimonial-sliders .slick-list {
+      padding-right: 100px !important;
+   }
+   .testimonial-slider {
+      margin: 0 10px;
+   }
+   .testimonial-wrapper {
+      padding-left: 20PX;
+      padding-right: 20px;
+   }
+   .testimonial-sliders .slick-dots {
+      margin-top: 30px;
+   }
+   .testimonial-sliders {
+      margin: 0 -10px;
+   }
+   .blog-single-item a > span {
+      font-size: 12px;
+   }
+}
+
+/*========== LG-DESKTOP : BETWEEN 992PX TO 1199px. ==========*/
+@media (min-width: 992px) and (max-width: 1199px) {
+   /* GLOBAL */
+   .container {
+       max-width: 920px;
+   }
+   .promotion-wrapper .section-content {
+      padding-bottom: 80px;
+   }
+   .brand-slider img {
+      max-width: 180px;
+   }
+   .logo img {
+      max-width: 200px;
+   }
+   .mainmneu ul li a {
+      padding: 1em 0.5em;
+      font-size: 13px;
+   }
+   .header-action a {
+      font-size: 14px;
+   }
+   .hero-area .section-content p {
+      font-size: 38px;
+   }
+   .header-area.sticky .logo img {
+      max-width: 200px;
+   }
+
+}
+
+/*========== MD-TABLET : BETWEEN 768PX TO 991PX ==========*/
+ @media (min-width: 768px) and (max-width: 991px) {
+   /* GLOBAL */
+   .container {
+      max-width: 750px;
+   }
+   /* GLOBAL// */
+   .brand-slider img {
+      max-width: 180px;
+   }
+   .pr-md-0 {
+      padding-right: 0;
+   }
+   .header-area {
+      padding: 20px 0;
+   }
+   .hero-area {
+      padding-top: 60px;
+   }
+   .hero-area .section-content p {
+      font-size: 32px;
+   }
+   .blog-single-item {
+      padding: 1em;
+      height: 300px;;
+   }
+   .promotion-img img {
+      max-width: 100%;
+   }
+
+}
+ 
+/*========== SMALL MOBILE : SMALLER THEN 767PX ==========*/
+@media (max-width: 767px) {
+   /* GLOBAL */
+   h1 {
+      font-size: 32px;
+   }
+   h2 {
+      font-size: 32px;
+   }
+   h3 {
+      font-size: 26px;
+   }
+   h4 {
+      font-size: 18px;
+   }
+   h5 {
+      font-size: 16px;
+   }
+   h6 {
+      font-size: 14px;
+   }
+   body {
+      font-size: 14px;
+   }
+   .scroll-up {
+      font-size: 12px;
+   }
+   input, textarea {
+      font-size: 12px;
+   }
+   .site-btn {
+      font-size: 14px;
+   }
+   .section-title p {
+      font-size: 14px;
+   }
+   .widget-des img {
+      max-width: 250px;
+   }
+   .logo img {
+      max-width: 210px;
+   }
+   .hero-area .section-content p {
+      font-size: 20px;
+   }
+   .header-area {
+      padding: 20px 0;
+   }
+   /* GLOBAL// */
+
+   /* HERO */
+   .hero-area {
+      padding-top: 50px;
+   }
+   .categroy-menu {
+      margin-bottom: 15px;
+   }
+   .sf-form {
+      border-radius: 10px;
+      padding: 0.5em 0.5em 0.5em 0.5em;
+      flex-wrap: wrap;
+      gap: 0 !important;
+   }
+   .sf-form > div {
+      width: 100%;
+      padding: 10px 10px;
+      border-bottom: 1px solid #cccccc4a;
+   }
+   .sf-form > div:last-child {
+      border-bottom: 0;
+   }
+   .search-btn .site-btn {
+      width: 100%;
+      justify-content: center;
+   }
+   .sf-form::after,
+   .sf-form::before,
+   .sf-form > div::after {
+      display: none;
+   }
+   .shoping-filter {
+      padding: 2em 1.5em;
+      margin-bottom: 0;
+      margin-bottom: 60px;
+   }
+   /* PROMOTION */
+   .promotion-wrapper {
+      border-radius: 15px;
+      padding: 30px 20px 0 20px;
+   }
+   .promotion-video .promotion-img {
+      margin-right: 0;
+   }
+   .brand-slider img {
+      max-width: 120px;
+   }
+   .brand-sliders {
+      margin-left: -10px;
+      margin-right: -10px;
+      padding: 30px 30px;
+   }
+   .brand-slider {
+     padding: 10px;
+   }
+   .brand-sliders .slick-arrow {
+      left: 0;
+   }
+   .brand-sliders .slick-arrow.slick-next {
+      right: 0;
+   }
+
+   /* TESTIMONIAL */
+   .testimonial-sliders .slick-list {
+      padding-right: 0px !important;
+   }
+   .testimonial-wrapper {
+      padding-left: 20PX;
+      padding-right: 20px;
+   }
+   .testimonial-sliders .slick-dots {
+      margin-top: 30px;
+      padding-left: 0;
+      text-align: center;
+   }
+   .header-area.sticky .logo img {
+      max-width: 210px;
+   }
+}
+
+/*========== LARGE MOBILE : BETWEEN 480PX TO 767PX ==========*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+       max-width: 350px;
+    }
+}
+ 

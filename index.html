@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--======== Title & Favicon ========-->
+    <title>Enterprise Tech</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <!--======== CSS ========-->
+    <link href="./assets/css/magnific-popup.min.css" rel="stylesheet">
+    <link href="./assets/css/slick-min.css" rel="stylesheet">
+    <link href="./assets/css/nice-select.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/spacing.min.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/responsive.css" rel="stylesheet">  
+</head>
+<body>
+
+
+    <!-- HEADER -->
+    <header class="header-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-3 col-lg-2">
+                    <div class="position-relative">
+                        <div class="logo position-relative d-flex align-items-center">
+                            <a href="index.html"><img src="./assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                        <!-- Hamburger Icon -->
+                        <div class="sidebar-overlay"></div>
+                        <div class="hamburger d-flex flex-column el-absolute center-right d-lg-none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <!-- Header Sidebar -->
+                        <div class="header-sidebar">
+                            <div class="sidebar-inner d-flex flex-column">
+                                <div class="sidebar-menu">
+                                    <img src="./assets/img/logo/logo.png" alt="">
+                                    <ul>
+                                        <li><a href="#">ទំព័រដើម</a></li>
+                                        <li><a href="#">អំពីពួកយើង</a></li>
+                                        <li><a href="#">ទំនាក់ទំនង</a></li>
+                                        <li><a href="#">ព័ត៌មាន និងព្រឹត្តិការណ៍</a></li>
+                                        <li><a href="#">ស្វែងរកទំព័រ</a></li>
+                                    </ul>
+                                </div>
+                                <div class="sidebar-others flex-1 d-flex flex-column justify-content-between text-center">
+                                    <div class="sidebar-btn mt-30">
+                                        <a href="#" class="site-btn"><img src="./assets/img/icons/user.png" alt=""> ចូលប្រើប្រាស់</a>
+                                    </div>
+                                    <div class="sidebar-copyright">
+                                        © 2024 ថ្នាលអាជីវកម្មឌីជីថល។ រក្សាសិទ្ធគ្រប់យ៉ាង។
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-10 d-none d-lg-block">
+                    <div class="header-menus d-flex justify-content-end align-items-center gap-4">
+                        <div class="mainmneu">
+                            <ul>
+                                <li><a href="#">ទំព័រដើម</a></li>
+                                <li><a href="#">អំពីពួកយើង</a></li>
+                                <li><a href="#">ទំនាក់ទំនង</a></li>
+                                <li><a href="#">ព័ត៌មាន និងព្រឹត្តិការណ៍</a></li>
+                                <li><a href="#">ស្វែងរកទំព័រ</a></li>
+                            </ul>
+                        </div>
+                        <div class="header-action d-flex align-items-center gap-2">
+                            <select name="" id="">
+                                <option value="">ភាសាខ្មែរ</option>
+                                <option value="">English</option>
+                            </select>
+                            <a href="#">
+                                <img src="./assets/img/icons/user.png" alt=""> ចូលប្រើប្រាស់
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER end -->
+
+    <main class="main">
+
+        <!-- HERO AREA -->
+        <section class="hero-area mb-100 mb-xs-0" style="background-image: url('./assets/img/hero/hero-bg.png');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-10 col-lg-11 col-md-12 mx-auto text-center">
+                        <div class="section-content">
+                            <h2>ស្វែងរកទីផ្សា និងបច្ចេកវិទ្យា</h2>
+                            <p class="mb-0">សម្រាប់សហគ្រាសរបស់លោកអ្នកនៅទីនេះ</p>
+                            <div class="shoping-filter mt-100 mt-md-50 mt-xs-50">
+                                <!-- Tab Menu -->
+                                <div class="category-menus d-md-flex justify-content-between mb-30 text-center">
+                                    <div class="categroy-menu active">ផលិតផល និងសេវាកម្ម</div>
+                                    <div class="categroy-menu">ការដេញថ្លៃ</div>
+                                    <div class="categroy-menu">ការជ្រើសរើសបុគ្គលិក</div>
+                                    <div class="categroy-menu">អាហារូបករណ៍</div>
+                                    <div class="categroy-menu">ការធ្វើតេស្ត និងព្យាសកម្ម</div>
+                                </div>
+                                <div class="category-forms">
+                                    <!-- Tab Content Item -->
+                                    <div class="category-form active">
+                                        <div class="sf-form d-flex align-items-center justify-content-between gap-4">
+                                            <div class="search-keryword">
+                                                <img src="./assets/img/icons/search.png" alt="">
+                                                <input type="text" placeholder="ស្វែងរកតាមពាក្យគន្លឹះ">
+                                            </div>
+                                            <div class="search-select d-flex align-items-center gap-1">
+                                                <img src="./assets/img/icons/grid.png" alt="">
+                                                <select name="" id="">
+                                                    <option value="">ប្រភេទ</option>
+                                                    <option value="">ប្រភេទ 1</option>
+                                                    <option value="">ប្រភេទ 2</option>
+                                                    <option value="">ប្រភេទ 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="search-select d-flex align-items-center gap-1">
+                                                <img src="./assets/img/icons/grid.png" alt="">
+                                                <select name="" id="">
+                                                    <option value="">វិស័យ</option>
+                                                    <option value="">វិស័យ 1</option>
+                                                    <option value="">វិស័យ 2</option>
+                                                    <option value="">វិស័យ 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="search-btn text-end flex-1">
+                                                <button type="submit" class="site-btn">ស្វែងរក <img src="./assets/img/icons/search.png" alt=""></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Tab Content Item -->
+                                    <div class="category-form">
+                                        <div class="sf-form d-flex align-items-center justify-content-between gap-4">
+                                            <div class="search-keryword">
+                                                <img src="./assets/img/icons/search.png" alt="">
+                                                <input type="text" placeholder="ស្វែងរកតាមពាក្យគន្លឹះ">
+                                            </div>
+                                            <div class="search-select d-flex align-items-center gap-1">
+                                                <img src="./assets/img/icons/grid.png" alt="">
+                                                <select name="" id="">
+                                                    <option value="">ប្រភេទ</option>
+                                                    <option value="">ប្រភេទ 1</option>
+                                                    <option value="">ប្រភេទ 2</option>
+                                                    <option value="">ប្រភេទ 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="search-select d-flex align-items-center gap-1">
+                                                <img src="./assets/img/icons/grid.png" alt="">
+                                                <select name="" id="">
+                                                    <option value="">វិស័យ</option>
+                                                    <option value="">វិស័យ 1</option>
+                                                    <option value="">វិស័យ 2</option>
+                                                    <option value="">វិស័យ 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="search-btn text-end flex-1">
+                                                <button type="submit" class="site-btn">ស្វែងរក <img src="./assets/img/icons/search.png" alt=""></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Tab Content Item -->
+                                    <div class="category-form">
+                                        <div class="sf-form d-flex align-items-center justify-content-between gap-4">
+                                            <div class="search-keryword">
+                                                <img src="./assets/img/icons/search.png" alt="">
+                                                <input type="text" placeholder="ស្វែងរកតាមពាក្យគន្លឹះ">
+                                            </div>
+                                            <div class="search-select d-flex align-items-center gap-1">
+                                                <img src="./assets/img/icons/grid.png" alt="">
+                                                <select name="" id="">
+                                                    <option value="">ប្រភេទ</option>
+                                                    <option value="">ប្រភេទ 1</option>
+                                                    <option value="">ប្រភេទ 2</option>
+                                                    <option value="">ប្រភេទ 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="search-select d-flex align-items-center gap-1">
+                                                <img src="./assets/img/icons/grid.png" alt="">
+                                                <select name="" id="">
+                                                    <option value="">វិស័យ</option>
+                                                    <option value="">វិស័យ 1</option>
+                                                    <option value="">វិស័យ 2</option>
+                                                    <option value="">វិស័យ 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="search-btn text-end flex-1">
+                                                <button type="submit" class="site-btn">ស្វែងរក <img src="./assets/img/icons/search.png" alt=""></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Tab Content Item -->
+                                    <div class="category-form">
+                                        <div class="sf-form d-flex align-items-center justify-content-between gap-4">
+                                            <div class="search-keryword">
+                                                <img src="./assets/img/icons/search.png" alt="">
+                                                <input type="text" placeholder="ស្វែងរកតាមពាក្យគន្លឹះ">
+                                            </div>
+                                            <div class="search-select d-flex align-items-center gap-1">
+                                                <img src="./assets/img/icons/grid.png" alt="">
+                                                <select name="" id="">
+                                                    <option value="">ប្រភេទ</option>
+                                                    <option value="">ប្រភេទ 1</option>
+                                                    <option value="">ប្រភេទ 2</option>
+                                                    <option value="">ប្រភេទ 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="search-select d-flex align-items-center gap-1">
+                                                <img src="./assets/img/icons/grid.png" alt="">
+                                                <select name="" id="">
+                                                    <option value="">វិស័យ</option>
+                                                    <option value="">វិស័យ 1</option>
+                                                    <option value="">វិស័យ 2</option>
+                                                    <option value="">វិស័យ 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="search-btn text-end flex-1">
+                                                <button type="submit" class="site-btn">ស្វែងរក <img src="./assets/img/icons/search.png" alt=""></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Tab Content Item -->
+                                    <div class="category-form">
+                                        <div class="sf-form d-flex align-items-center justify-content-between gap-4">
+                                            <div class="search-keryword">
+                                                <img src="./assets/img/icons/search.png" alt="">
+                                                <input type="text" placeholder="ស្វែងរកតាមពាក្យគន្លឹះ">
+                                            </div>
+                                            <div class="search-select d-flex align-items-center gap-1">
+                                                <img src="./assets/img/icons/grid.png" alt="">
+                                                <select name="" id="">
+                                                    <option value="">ប្រភេទ</option>
+                                                    <option value="">ប្រភេទ 1</option>
+                                                    <option value="">ប្រភេទ 2</option>
+                                                    <option value="">ប្រភេទ 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="search-select d-flex align-items-center gap-1">
+                                                <img src="./assets/img/icons/grid.png" alt="">
+                                                <select name="" id="">
+                                                    <option value="">វិស័យ</option>
+                                                    <option value="">វិស័យ 1</option>
+                                                    <option value="">វិស័យ 2</option>
+                                                    <option value="">វិស័យ 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="search-btn text-end flex-1">
+                                                <button type="submit" class="site-btn">ស្វែងរក <img src="./assets/img/icons/search.png" alt=""></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Tab Content Item -->
+                                    <div class="category-form">
+                                        <div class="sf-form d-flex align-items-center justify-content-between gap-4">
+                                            <div class="search-keryword">
+                                                <img src="./assets/img/icons/search.png" alt="">
+                                                <input type="text" placeholder="ស្វែងរកតាមពាក្យគន្លឹះ">
+                                            </div>
+                                            <div class="search-select d-flex align-items-center gap-1">
+                                                <img src="./assets/img/icons/grid.png" alt="">
+                                                <select name="" id="">
+                                                    <option value="">ប្រភេទ</option>
+                                                    <option value="">ប្រភេទ 1</option>
+                                                    <option value="">ប្រភេទ 2</option>
+                                                    <option value="">ប្រភេទ 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="search-select d-flex align-items-center gap-1">
+                                                <img src="./assets/img/icons/grid.png" alt="">
+                                                <select name="" id="">
+                                                    <option value="">វិស័យ</option>
+                                                    <option value="">វិស័យ 1</option>
+                                                    <option value="">វិស័យ 2</option>
+                                                    <option value="">វិស័យ 3</option>
+                                                </select>
+                                            </div>
+                                            <div class="search-btn text-end flex-1">
+                                                <button type="submit" class="site-btn">ស្វែងរក <img src="./assets/img/icons/search.png" alt=""></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- HERO AREA end -->
+
+        <!-- BLOG AREA -->
+        <section class="blog-area pt-100 pb-100 pt-xs-60 pb-xs-60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto text-center">
+                        <div class="section-title mb-60 mb-xs-30">
+                            <h2>ស្វែងរកទិន្នន័យអាជីវកម្មនៅទីនេះ</h2>
+                            <p>ធ្វើការដាក់បង្ហាញផលិតផល ឬសេវាកម្មពាក់ព័ន្ធនឹងបច្ចេកវិទ្យារបស់អ្នកទៅក្នុងថ្នាលដោយមិនគិតប្រាក់ និងតាមវិធីងាយៗដូចខាងក្រោម !!!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="blog-single-item position-relative bg-attachment" style="background-image: url('./assets/img/blog/blog-1.jpg');">
+                            <a href="#">
+                                <span class="el-absolute top-right">16</span>
+                                <div class="section-content white-content el-absolute bottom-left">
+                                    <h4>ផលិតផល និងសេវាកម្ម</h4>
+                                    <p class="mb-0">លោកអ្នកអាចធ្វើការស្វែងរកផលិតផលឬសេវាកម្ម ផ្សេងៗជាពិសេសពាក់ព័ន្ធនឹងបច្ចេកវិទ្យា បាននៅទីនេះ។</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-single-item position-relative bg-attachment" style="background-image: url('./assets/img/blog/blog-2.jpg');">
+                            <a href="#">
+                                <span class="el-absolute top-right">16</span>
+                                <div class="section-content white-content el-absolute bottom-left">
+                                    <h4>ការដេញថ្លៃ</h4>
+                                    <p class="mb-0">លោកអ្នកអាចធ្វើការស្វែងរកផលិតផលឬសេវាកម្ម ផ្សេងៗជាពិសេសពាក់ព័ន្ធនឹងបច្ចេកវិទ្យា បាននៅទីនេះ។</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-single-item position-relative bg-attachment" style="background-image: url('./assets/img/blog/blog-3.jpg');">
+                            <a href="#">
+                                <span class="el-absolute top-right">16</span>
+                                <div class="section-content white-content el-absolute bottom-left">
+                                    <h4>ការជ្រើសរើសបុគ្គលិក</h4>
+                                    <p class="mb-0">លោកអ្នកអាចធ្វើការស្វែងរកផលិតផលឬសេវាកម្ម ផ្សេងៗជាពិសេសពាក់ព័ន្ធនឹងបច្ចេកវិទ្យា បាននៅទីនេះ។</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-single-item position-relative bg-attachment" style="background-image: url('./assets/img/blog/blog-4.jpg');">
+                            <a href="#">
+                                <span class="el-absolute top-right">16</span>
+                                <div class="section-content white-content el-absolute bottom-left">
+                                    <h4>អាហារូបករណ៍</h4>
+                                    <p class="mb-0">លោកអ្នកអាចធ្វើការស្វែងរកផលិតផលឬសេវាកម្ម ផ្សេងៗជាពិសេសពាក់ព័ន្ធនឹងបច្ចេកវិទ្យា បាននៅទីនេះ។</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blog-single-item position-relative bg-attachment" style="background-image: url('./assets/img/blog/blog-5.jpg');">
+                            <a href="#">
+                                <span class="el-absolute top-right">16</span>
+                                <div class="section-content white-content el-absolute bottom-left">
+                                    <h4>ការធ្វើតេស្ត និងព្យាសកម្ម្ម</h4>
+                                    <p class="mb-0">លោកអ្នកអាចធ្វើការស្វែងរកផលិតផលឬសេវាកម្ម ផ្សេងៗជាពិសេសពាក់ព័ន្ធនឹងបច្ចេកវិទ្យា បាននៅទីនេះ។</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- BLOG AREA end -->
+
+        <!-- PROMOTION VIDEO -->
+        <section class="promotion-video position-relative pt-100 pb-100 pt-xs-60 pb-xs-60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="video-wrapper text-center text-md-start">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="section-content white-content">
+                                        <h2>តើអ្វីទៅជាថ្នាលបច្ចេកវិទ្យាសហគ្រាស?</h2>
+                                        <p class="mb-30">គោលដៅចម្បងនៃថ្នាលបច្ចេកវិទ្យា សហគ្រាសនេះគឺដើម្បីសម្រួលដល់អ្នកប្រើប្រាស់ទាំងអស់ក្នុងការស្វែងរកទីផ្សារ ការស្វែងយល់ខ្សែចង្វាក់ផ្គត់ផ្គង់ និងការចាប់យកបច្ចេកវិទ្យាសម្រាប់សហគ្រាសរបស់លោកអ្នក។</p>
+                                        <a href="" class="site-btn video-btn"> <img src="./assets/img/icons/play.png" alt=""> វីដេអូស្វែងយល់បន្ថែម</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="promotion-img mt-xs-30">
+                                        <img src="./assets/img/promotion/device.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- PROMOTION VIDEO end -->
+
+        <!-- FEATUREA AREA -->
+        <section class="feature-area pt-100 pb-130 pt-xs-60 pb-xs-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 mx-auto text-center">
+                        <div class="section-title mb-60 mb-xs-30">
+                            <h2>របៀបប្រើប្រាស់ថ្នាលបច្ចេកវិទ្យាសហគ្រាសរ</h2>
+                            <p>ធ្វើការដាក់បង្ហាញផលិតផល ឬសេវាកម្មពាក់ព័ន្ធនឹងបច្ចេកវិទ្យារបស់អ្នកទៅក្នុងថ្នាលដោយមិនគិតប្រាក់ <br> និងតាមវិធីងាយៗដូចខាងក្រោម !!!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center g-5 g-md-4">
+                    <div class="col-md-4">
+                        <div class="feature-item position-relative d-flex flex-column justify-content-center align-items-center">
+                            <img class="mb-30" src="./assets/img/features/icon-1.png" alt="">
+                            <h4 class="mb-20">បង្កើតគណនីប្រើប្រាស់</h4>
+                            <p>ធ្វើការដាក់បង្ហាញផលិតផល ឬសេវាកម្មពាក់ព័ន្ធនឹងបច្ចេកវិទ្យារបស់អ្នកទៅក្នុងថ្នាលដោយមិនគិតប្រាក់និងតាមវិធីងាយៗ</p>
+                            <span class="el-absolute bottom-center">1</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-item position-relative d-flex flex-column justify-content-center align-items-center">
+                            <img class="mb-30" src="./assets/img/features/icon-2.png" alt="">
+                            <h4 class="mb-20">បង្កើតគណនីប្រើប្រាស់</h4>
+                            <p>ធ្វើការដាក់បង្ហាញផលិតផល ឬសេវាកម្មពាក់ព័ន្ធនឹងបច្ចេកវិទ្យារបស់អ្នកទៅក្នុងថ្នាលដោយមិនគិតប្រាក់និងតាមវិធីងាយៗ</p>
+                            <span class="el-absolute bottom-center">2</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-item position-relative d-flex flex-column justify-content-center align-items-center">
+                            <img class="mb-30" src="./assets/img/features/icon-3.png" alt="">
+                            <h4 class="mb-20">បង្កើតគណនីប្រើប្រាស់</h4>
+                            <p>ធ្វើការដាក់បង្ហាញផលិតផល ឬសេវាកម្មពាក់ព័ន្ធនឹងបច្ចេកវិទ្យារបស់អ្នកទៅក្នុងថ្នាលដោយមិនគិតប្រាក់និងតាមវិធីងាយៗ</p>
+                            <span class="el-absolute bottom-center">3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FEATUREA AREA end -->
+
+        <!-- TESTIONIAL AREA -->
+        <section class="testimonial-area pt-100 pb-100 pt-xs-60 pb-xs-60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 mx-auto text-center">
+                        <div class="section-title white-content mb-60 mb-xs-50">
+                            <h2>ការយល់ឃើញរបស់អ្នកប្រើប្រាស់</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-wrapper">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="testimonial-sliders">
+                            <!-- Item  -->
+                            <div class="testimonial-slider">
+                                <h4>កម្មវិធីល្អបំផុតរបស់កម្ពុជា</h4>
+                                <p>គោលដៅចម្បងនៃវេទិកាបច្ចេកវិទ្យាសហគ្រាសគឺដើម្បីសម្រួលដំណើរការ ធ្វើអោយប្រសើរឡើងនូវការសម្រេចចិត្ត និងជំរុញកំណើនអាជីវកម្មដោយបើកដំណើរការសមាហរណកម្ម និងលំហូរទិន្នន័យដោយគ្មានថ្នេរនៅទូទាំងនាយកដ្ឋាន និងប្រព័ន្ធផ្សេងៗនៅក្នុងស្ថាប័នមួយ។</p>
+                                <div class="tm-autor d-flex align-items-center gap-4">
+                                    <img src="./assets/img/testimonial/author-1.jpg" alt="">
+                                    <span>ឈ្មោះ​អាជីវកម្ម</span>
+                                </div>
+                            </div>
+                            <!-- Item  -->
+                            <div class="testimonial-slider">
+                                <h4>កម្មវិធីល្អបំផុតរបស់កម្ពុជា</h4>
+                                <p>គោលដៅចម្បងនៃវេទិកាបច្ចេកវិទ្យាសហគ្រាសគឺដើម្បីសម្រួលដំណើរការ ធ្វើអោយប្រសើរឡើងនូវការសម្រេចចិត្ត និងជំរុញកំណើនអាជីវកម្មដោយបើកដំណើរការសមាហរណកម្ម និងលំហូរទិន្នន័យដោយគ្មានថ្នេរនៅទូទាំងនាយកដ្ឋាន និងប្រព័ន្ធផ្សេងៗនៅក្នុងស្ថាប័នមួយ។</p>
+                                <div class="tm-autor d-flex align-items-center gap-4">
+                                    <img src="./assets/img/testimonial/author-1.jpg" alt="">
+                                    <span>ឈ្មោះ​អាជីវកម្ម</span>
+                                </div>
+                            </div>
+                            <!-- Item  -->
+                            <div class="testimonial-slider">
+                                <h4>កម្មវិធីល្អបំផុតរបស់កម្ពុជា</h4>
+                                <p>គោលដៅចម្បងនៃវេទិកាបច្ចេកវិទ្យាសហគ្រាសគឺដើម្បីសម្រួលដំណើរការ ធ្វើអោយប្រសើរឡើងនូវការសម្រេចចិត្ត និងជំរុញកំណើនអាជីវកម្មដោយបើកដំណើរការសមាហរណកម្ម និងលំហូរទិន្នន័យដោយគ្មានថ្នេរនៅទូទាំងនាយកដ្ឋាន និងប្រព័ន្ធផ្សេងៗនៅក្នុងស្ថាប័នមួយ។</p>
+                                <div class="tm-autor d-flex align-items-center gap-4">
+                                    <img src="./assets/img/testimonial/author-1.jpg" alt="">
+                                    <span>ឈ្មោះ​អាជីវកម្ម</span>
+                                </div>
+                            </div>
+                            <!-- Item  -->
+                            <div class="testimonial-slider">
+                                <h4>កម្មវិធីល្អបំផុតរបស់កម្ពុជា</h4>
+                                <p>គោលដៅចម្បងនៃវេទិកាបច្ចេកវិទ្យាសហគ្រាសគឺដើម្បីសម្រួលដំណើរការ ធ្វើអោយប្រសើរឡើងនូវការសម្រេចចិត្ត និងជំរុញកំណើនអាជីវកម្មដោយបើកដំណើរការសមាហរណកម្ម និងលំហូរទិន្នន័យដោយគ្មានថ្នេរនៅទូទាំងនាយកដ្ឋាន និងប្រព័ន្ធផ្សេងៗនៅក្នុងស្ថាប័នមួយ។</p>
+                                <div class="tm-autor d-flex align-items-center gap-4">
+                                    <img src="./assets/img/testimonial/author-1.jpg" alt="">
+                                    <span>ឈ្មោះ​អាជីវកម្ម</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TESTIONIAL AREA end -->
+
+        <!-- BRAND AREA -->
+        <section class="brand-area pt-100 pb-70 pt-xs-60 pb-xs-30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto text-center">
+                        <div class="section-title mb-60 mb-xs-30">
+                            <h2>ដែគូសហការគាំទ្រ និងអ្នកផ្សព្វផ្សាយ</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-11 mx-auto">
+                        <div class="brand-sliders">
+                            <div class="brand-slider">
+                                <img src="./assets/img/brand/brand-1.png" alt="">
+                            </div>
+                            <div class="brand-slider">
+                                <img src="./assets/img/brand/brand-2.png" alt="">
+                            </div>
+                            <div class="brand-slider">
+                                <img src="./assets/img/brand/brand-3.png" alt="">
+                            </div>
+                            <div class="brand-slider">
+                                <img src="./assets/img/brand/brand-4.png" alt="">
+                            </div>
+                            <div class="brand-slider">
+                                <img src="./assets/img/brand/brand-1.png" alt="">
+                            </div>
+                            <div class="brand-slider">
+                                <img src="./assets/img/brand/brand-2.png" alt="">
+                            </div>
+                            <div class="brand-slider">
+                                <img src="./assets/img/brand/brand-3.png" alt="">
+                            </div>
+                            <div class="brand-slider">
+                                <img src="./assets/img/brand/brand-4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- BRAND AREA end -->
+
+        <!-- PROMOTION AREA -->
+        <section class="promotion-area pb-100 pb-xs-60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="promotion-wrapper text-center text-md-start">
+                            <div class="row align-items-end">
+                                <div class="col-md-6">
+                                    <div class="section-content white-content pb-100 pb-xs-30">
+                                        <h2>ថ្នាលបច្ចេកវិទ្យាសហគ្រាស ផ្លូវទៅកាន់ភាពជោគជ័យ</h2>
+                                        <p class="mb-30">លោកអ្នកអាចធ្វើការស្វែងរកផលិតផលឬសេវាកម្ម ផ្សេងៗជាពិសេសពាក់ព័ន្ធនឹងបច្ចេកវិទ្យា បាននៅទីនេះ។</p>
+                                        <a href="#" class="site-btn"> <img src="./assets/img/icons/call.png" alt=""> ទាក់ទងមកយើងឥឡូវនេះ</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="promotion-img text-center">
+                                        <img src="./assets/img/promotion/man-female.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- PROMOTION AREA end -->
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer-area text-center text-md-start">
+        <div class="main-footer pt-60 pb-60">
+            <div class="container">
+                <div class="row g-4 g-lg-5">
+                    <div class="col-md-5">
+                        <div class="widget-des pr-50 pr-xs-0 pr-md-0">
+                            <img class="mb-20" src="./assets/img/logo/logo.png" alt="">
+                            <p class="mb-0">គោលដៅចម្បងនៃវេទិកាបច្ចេកវិទ្យាសហគ្រាសគឺដើម្បីសម្រួលដំណើរការ ធ្វើអោយប្រសើរឡើងនូវការសម្រេចចិត្ត និងជំរុញកំណើនអាជីវកម្មដោយបើកដំណើរការសមាហរណកម្ម និងលំហូរទិន្នន័យដោយគ្មានថ្នេរនៅទូទាំងនាយកដ្ឋាន និងប្រព័ន្ធផ្សេងៗនៅក្នុងស្ថាប័នមួយ។</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="widget-links">
+                            <h4 class="text-theme mt-20 mb-30 mt-xs-0 mb-xs-10">តំណភ្ជាប់សំខាន់ៗ</h4>
+                            <ul class="d-flex gap-3 flex-column">
+                                <li><a href="#">អំពីពួកយើង</a></li>
+                                <li><a href="#">ព័ត៌មាន និងព្រឹត្តិការណ៍</a></li>
+                                <li><a href="#">របៀបប្រើប្រាស់ថ្នាល</a></li>
+                                <li><a href="#">ស្វែងរកទំព័រ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="widget-info">
+                            <h4 class="text-theme mt-20 mb-30 mt-xs-0 mb-xs-10">ទំនាក់ទំនង</h4>
+                            <ul class="d-flex gap-3 flex-column">
+                                <li>info@abc.gov.kh</li>
+                                <li>#៤៥ មហាវិថីព្រះនរោត្តម សង្កាត់ផ្សារថ្មី៣ ខណ្ឌដូនពេញ រាជធានីភ្នំពេញ</li>
+                                <li>+855 23 211 141</li>
+                            </ul>
+                            <div class="socail-links d-flex gap-3 align-items-center justify-content-center justify-content-md-start mt-20">
+                                <a href="#"><img src="./assets/img/icons/whatsapp.png" alt=""></a>
+                                <a href="#"><img src="./assets/img/icons/location.png" alt=""></a>
+                                <a href="#"><img src="./assets/img/icons/linkdin.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center pt-30 pb-30">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">© 2024 ថ្នាលអាជីវកម្មឌីជីថល។ រក្សាសិទ្ធគ្រប់យ៉ាង។</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER end -->
+
+
+    <!--======== SCROLL UP// ========-->
+    <div class="scroll-up"><img src="./assets/img/icons/arrow-up.svg" alt=""></div>
+    <!--======== SCROLL UP// ========-->
+
+    <!-- JS HERE -->
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/nice-select.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/magnific-popup.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
